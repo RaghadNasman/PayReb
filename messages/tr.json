@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "PayReb",
+    "description": "Paranızı saniyeler içinde transfer edin, ödeyin ve alın — dünyanın her yerinden. Tüm finansal hizmetleriniz tek, güvenli ve hızlı bir uygulamada."
+  },
+  "Navbar": {
+    "links": {
+      "0": "Ana Sayfa",
+      "1": "Özellikler",
+      "2": "Komisyon Oranları",
+      "3": "İş Çözümleri",
+      "4": "Makaleler",
+      "5": "Bize Ulaşın"
+    },
+    "downloadBtn": "Uygulamayı İndir",
+    "lang": {
+      "ar": "ar",
+      "en": "en",
+      "tr": "tr"
+    }
+  },
+  "HomePage": {
+  "header": {
+    "mainText1": "Paranı transfer et",
+    "mainText2": " saniyeler içinde",
+    "mainText3": ", kolayca ve güvenli bir şekilde.",
+    "secondText": "Paranı gönder, öde ve al – saniyeler içinde, dünyanın her yerinden. Tüm finansal hizmetlerin tek bir hızlı ve güvenli uygulamada.",
+    "firstBtn": "Deneyimine başla",
+    "secondBtn": "Uygulamanın nasıl çalıştığını gör"
+  }
+}
+
+}

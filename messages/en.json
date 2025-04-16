@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "title": "PayReb",
+    "description": "Transfer, pay, and receive your money in seconds—from anywhere in the world. All your financial services in one secure and fast app."
+  },
+  "Navbar": {
+    "links": {
+      "0": "Home",
+      "1": "Features",
+      "2": "Commission Rates",
+      "3": "Business Solutions",
+      "4": "Articles",
+      "5": "Contact Us"
+    },
+    "downloadBtn": "Download App",
+    "lang": {
+      "ar": "ar",
+      "en": "en",
+      "tr": "tr"
+    }
+  },
+  "HomePage": {
+  "header": {
+    "mainText1": "Transfer your money",
+    "mainText2": " in seconds",
+    "mainText3": ", easily and securely.",
+    "secondText": "Send, pay, and receive your money within seconds, from anywhere in the world. All your financial services in one fast, secure app.",
+    "firstBtn": "Start your experience",
+    "secondBtn": "See how the app works"
+  }
+}
+
+}

@@ -1,0 +1,23 @@
+<svg width="1456" height="798" viewBox="0 0 1456 798" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="16" width="1440" height="798" fill="url(#paint0_linear_2005_168)"/>
+<line x1="1" y1="144.5" x2="1456" y2="144.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="0.5" y1="742" x2="0.5" y2="145" stroke="white" stroke-opacity="0.06"/>
+<line x1="100.5" y1="742" x2="100.5" y2="145" stroke="white" stroke-opacity="0.06"/>
+<line x1="1091.5" y1="742" x2="1091.5" y2="145" stroke="white" stroke-opacity="0.06"/>
+<line x1="1369.5" y1="742" x2="1369.5" y2="145" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="238.5" x2="1455" y2="238.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="298.5" x2="1455" y2="298.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="358.5" x2="1455" y2="358.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="418.5" x2="1455" y2="418.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="478.5" x2="1455" y2="478.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="538.5" x2="1455" y2="538.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="598.5" x2="1455" y2="598.5" stroke="white" stroke-opacity="0.06"/>
+<line x1="16" y1="658.5" x2="1455" y2="658.5" stroke="white" stroke-opacity="0.06"/>
+<defs>
+<linearGradient id="paint0_linear_2005_168" x1="16" y1="798" x2="1636.5" y2="-88.5001" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3B3ABF"/>
+<stop offset="0.266722" stop-color="#3F3ECC"/>
+<stop offset="0.936263" stop-color="#4E4DFF"/>
+</linearGradient>
+</defs>
+</svg>
