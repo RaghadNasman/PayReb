@@ -20,14 +20,28 @@
     }
   },
   "HomePage": {
-  "header": {
-    "mainText1": "Transfer your money",
-    "mainText2": " in seconds",
-    "mainText3": ", easily and securely.",
-    "secondText": "Send, pay, and receive your money within seconds, from anywhere in the world. All your financial services in one fast, secure app.",
-    "firstBtn": "Start your experience",
-    "secondBtn": "See how the app works"
+    "header": {
+      "mainText1": "Transfer your money",
+      "mainText2": " in seconds",
+      "mainText3": ", easily and securely.",
+      "secondText": "Send, pay, and receive your money within seconds, from anywhere in the world. All your financial services in one fast, secure app.",
+      "firstBtn": "Start your experience",
+      "secondBtn": "See how the app works"
+    },
+    "about": {
+    "titleH4": "Who Are We?",
+    "titleP": "A smart and reliable financial platform aiming to simplify money transfers and facilitate access to digital banking services. Our vision is to build a flexible, fast, and secure financial system for everyone – individuals and businesses.",
+    "cards": {
+      "0": {
+        "cardTitle": "Our Vision",
+        "cardP": "We believe that change starts with our everyday tools. Through our platform, we work to build a financial future that is easier, faster, and more secure for everyone."
+      },
+      "1": {
+        "cardTitle": "Our Mission",
+        "cardP": "To provide smart, simple, and secure payment solutions that meet the needs of individuals and businesses and help them grow financially with confidence."
+      }
+    }
   }
-}
-
+  }
+  
 }

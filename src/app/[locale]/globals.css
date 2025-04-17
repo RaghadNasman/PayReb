@@ -4,12 +4,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --white:#ffffff;
+  --white: #ffffff;
   --dark-blue: #170F49;
   --hover-dark-blue: #170f49be;
   --dark-black: #121212;
-  --light-primary-color :#C8C8FF;
+  --medium-black:#2C2C2E;
+  --soft-black: #1C1C1E;
+  --light-primary-color: #C8C8FF;
   --thin-gray: #E5E5EA;
+  --light-white: #F8F8F8;
+  --primary-color: #4E4DFF;
 }
 
 @theme inline {
@@ -17,7 +21,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans); */
   --font-mono: var(--font-geist-mono);
-  
+
 
 }
 
@@ -37,63 +41,127 @@ body {
   /* color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif; */
 }
+
 /* start custom css */
+/* start global classes */
+section {
+  padding-block: 5rem;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  color: var(--soft-black);
+}
+
+.title h4 {
+  margin-bottom: 1rem;
+}
+
+.title p {
+  line-height: 1.7;
+}
+
+/* end global classes */
+.gradient {
+  background: linear-gradient(45deg,
+      #3b3abf 0%,
+      #3f3ecc 27%,
+      #4e4dff 94%);
+}
 
 .white-text {
   color: var(--white);
 }
+.primary-text {
+  color: var(--primary-color);
+}
+.medium-black-text {
+  color: var(--medium-black);
+}
+
+.bg-light-white {
+  color: var(--light-white);
+}
+
 .light-primary-color {
   color: var(--light-primary-color);
 }
+
 /* btns */
 .black-btn {
   background-color: var(--dark-black);
   color: var(--white);
   transition: .3s;
 }
+
 .black-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px var(--dark-black);
 }
+
 .light-primary-btn {
   background-color: #8888ED;
   color: var(--thin-gray);
   transition: .3s;
 }
+
 .light-primary-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px #8888ED;
 }
+
 /* animation */
 @keyframes smoothOrbit {
   0% {
     transform: translate(0px, 0px) scale(1) rotate(0deg);
   }
+
   25% {
     transform: translate(4px, -4px) scale(1.05) rotate(3deg);
   }
+
   50% {
     transform: translate(6px, 6px) scale(0.97) rotate(0deg);
   }
+
   75% {
     transform: translate(-4px, 4px) scale(1.03) rotate(-2deg);
   }
+
   100% {
     transform: translate(0px, 0px) scale(1) rotate(0deg);
   }
 }
 
 .orbit-animate {
-  animation: smoothOrbit 6s ease-in-out infinite;
+  animation: smoothOrbit 3s ease-in-out infinite;
   transition: transform 0.3s ease;
   will-change: transform;
 }
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-down {
+  animation: slideDown 0.3s ease-out forwards;
+}
+
 /* 2nd */
 @keyframes fadeInUp {
   0% {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -102,7 +170,8 @@ body {
 
 .fade-in-up {
   animation: fadeInUp 1s ease-out forwards;
-  opacity: 0; /* تبدأ مخفية */
+  opacity: 0;
+  /* تبدأ مخفية */
 }
 
 
@@ -113,6 +182,7 @@ nav .main-links {
   transition: .3s;
   position: relative;
 }
+
 nav .main-links::after {
   content: '';
   position: absolute;
@@ -126,33 +196,56 @@ nav .main-links::after {
   border-radius: 20px;
   transition: .5s;
 }
+
 nav .main-links:hover::after {
   width: 70%;
 }
+
 nav .inner-links {
   color: var(--dark-blue);
   transition: .3s;
 }
+
 nav .inner-links:hover {
   color: var(--hover-dark-blue);
   background-color: rgba(128, 128, 128, 0.253);
 }
+
 nav .nav-btn {
   background-color: var(--dark-black);
   color: var(--white);
 }
-header {
-  background:  url(../../../public/Lines.png), linear-gradient(
-  45deg,
-  #3b3abf 0%,
-  #3f3ecc 27%,
-  #4e4dff 94%
-);
 
-/* background: url(../../../public/header-bg.svg) ;
+header {
+  background: url(../../../public/Lines.png), linear-gradient(45deg,
+      #3b3abf 0%,
+      #3f3ecc 27%,
+      #4e4dff 94%);
+
+  /* background: url(../../../public/header-bg.svg) ;
 background-size: 100%; */
 
 }
+
 /* [dir="ltr"] .header-img {
 transform: rotate(-50deg);
 } */
+
+/* about page */
+/* bottom-0 right-auto left-[50%] translate-x-[-50%] 
+ md:top-0 md:right-[-20%] md:left-auto md:rtl:left-[-20%] md:rtl:right-auto */
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding-left:  1rem;
+    padding-right:  1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+.about-shadow {
+  overflow: visible;
+  background: url(../../assets/images/about-shadow.png)  no-repeat;
+  background-size: 100% 100%;
+  background-position: 50% ;
+}
+}

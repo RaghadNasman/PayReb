@@ -20,14 +20,28 @@
     }
   },
   "HomePage": {
-  "header": {
-    "mainText1": "Paranı transfer et",
-    "mainText2": " saniyeler içinde",
-    "mainText3": ", kolayca ve güvenli bir şekilde.",
-    "secondText": "Paranı gönder, öde ve al – saniyeler içinde, dünyanın her yerinden. Tüm finansal hizmetlerin tek bir hızlı ve güvenli uygulamada.",
-    "firstBtn": "Deneyimine başla",
-    "secondBtn": "Uygulamanın nasıl çalıştığını gör"
+    "header": {
+      "mainText1": "Paranı transfer et",
+      "mainText2": " saniyeler içinde",
+      "mainText3": ", kolayca ve güvenli bir şekilde.",
+      "secondText": "Paranı gönder, öde ve al – saniyeler içinde, dünyanın her yerinden. Tüm finansal hizmetlerin tek bir hızlı ve güvenli uygulamada.",
+      "firstBtn": "Deneyimine başla",
+      "secondBtn": "Uygulamanın nasıl çalıştığını gör"
+    },
+    "about": {
+    "titleH4": "Biz Kimiz?",
+    "titleP": "Akıllı ve güvenilir bir finansal platform olarak, para transferlerini basitleştirmeyi ve dijital bankacılık hizmetlerine erişimi kolaylaştırmayı hedefliyoruz. Vizyonumuz, bireyler ve şirketler için esnek, hızlı ve güvenli bir finansal sistem inşa etmektir.",
+    "cards": {
+      "0": {
+        "cardTitle": "Vizyonumuz",
+        "cardP": "Değişimin günlük araçlarımızla başladığına inanıyoruz. Platformumuz aracılığıyla herkes için daha kolay, daha hızlı ve daha güvenli bir finansal gelecek inşa etmek istiyoruz."
+      },
+      "1": {
+        "cardTitle": "Misyonumuz",
+        "cardP": "Bireylerin ve şirketlerin ihtiyaçlarını karşılayan, finansal olarak güvenle büyümelerine yardımcı olan akıllı, basit ve güvenli ödeme çözümleri sunmak."
+      }
+    }
   }
-}
-
+  }
+  
 }

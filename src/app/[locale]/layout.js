@@ -5,6 +5,7 @@ import localFont from 'next/font/local'
 import './globals.css';
 import 'animate.css';
 import MetaHead from '../_components/MetaHead/MetaHead';
+import Navbar from '../_components/navbar/Navbar';
 
 const font = localFont({
   src: [
@@ -34,7 +35,7 @@ export default async function LocaleLayout({children, params}) {
       <body className={font.className}>
         <NextIntlClientProvider locale={locale}>
         <MetaHead />
-        {/* <Navbar /> */}
+        <Navbar />
           {children}
         </NextIntlClientProvider>
       </body>
