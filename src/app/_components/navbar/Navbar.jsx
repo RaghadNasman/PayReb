@@ -63,7 +63,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="logo">
-          <Image src={logo} alt="PayReb" width={200} height={200} quality={100} priority className='object-cover' />
+          <Image src={logo} alt="PayReb" width={170} height={170} quality={100} priority className='object-cover' />
         </div>
 
         {/* Links & Download button - Hidden in small screens */}

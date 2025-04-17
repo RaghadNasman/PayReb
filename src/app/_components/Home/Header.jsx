@@ -34,7 +34,7 @@ export default function Header() {
                             {t('secondText')}
                         </p>
                         {/* responsive moc up */}
-                        <div className="relative my-4">
+                        <div className="relative my-4 overflow-hidden">
                             <Image className='absolute orbit-animate delay-0 top-[0px] right-0 w-[50px] block md:hidden' src={animate1} alt=' ' />
                             <Image className='absolute orbit-animate delay-[1s] top-[0px] left-0  w-[50px] block md:hidden' src={animate2} alt=' ' />
                             <Image className='absolute orbit-animate delay-[1.5s] bottom-[0px] right-0 w-[50px] block md:hidden' src={animate3} alt=' ' />
