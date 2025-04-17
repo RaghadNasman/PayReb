@@ -29,19 +29,49 @@
       "secondBtn": "Uygulamanın nasıl çalıştığını gör"
     },
     "about": {
-    "titleH4": "Biz Kimiz?",
-    "titleP": "Akıllı ve güvenilir bir finansal platform olarak, para transferlerini basitleştirmeyi ve dijital bankacılık hizmetlerine erişimi kolaylaştırmayı hedefliyoruz. Vizyonumuz, bireyler ve şirketler için esnek, hızlı ve güvenli bir finansal sistem inşa etmektir.",
-    "cards": {
-      "0": {
-        "cardTitle": "Vizyonumuz",
-        "cardP": "Değişimin günlük araçlarımızla başladığına inanıyoruz. Platformumuz aracılığıyla herkes için daha kolay, daha hızlı ve daha güvenli bir finansal gelecek inşa etmek istiyoruz."
-      },
-      "1": {
-        "cardTitle": "Misyonumuz",
-        "cardP": "Bireylerin ve şirketlerin ihtiyaçlarını karşılayan, finansal olarak güvenle büyümelerine yardımcı olan akıllı, basit ve güvenli ödeme çözümleri sunmak."
+      "titleH4": "Biz Kimiz?",
+      "titleP": "Akıllı ve güvenilir bir finansal platform olarak, para transferlerini basitleştirmeyi ve dijital bankacılık hizmetlerine erişimi kolaylaştırmayı hedefliyoruz. Vizyonumuz, bireyler ve şirketler için esnek, hızlı ve güvenli bir finansal sistem inşa etmektir.",
+      "cards": {
+        "0": {
+          "cardTitle": "Vizyonumuz",
+          "cardP": "Değişimin günlük araçlarımızla başladığına inanıyoruz. Platformumuz aracılığıyla herkes için daha kolay, daha hızlı ve daha güvenli bir finansal gelecek inşa etmek istiyoruz."
+        },
+        "1": {
+          "cardTitle": "Misyonumuz",
+          "cardP": "Bireylerin ve şirketlerin ihtiyaçlarını karşılayan, finansal olarak güvenle büyümelerine yardımcı olan akıllı, basit ve güvenli ödeme çözümleri sunmak."
+        }
+      }
+    },
+    "features": {
+      "titleH4": "Bizi Özel Kılan Nedir?",
+      "titleP": "PayRep’te size sadece bir finansal uygulama sunmuyoruz… paranızı güvenle ve kolayca yönetebileceğiniz bütüncül bir deneyim inşa ediyoruz. Farkımız küçük detaylarla başlar ve gerçekten size hizmet eden büyük çözümlere kadar uzanır.",
+      "cards": {
+        "0": {
+          "title1": "Anında ",
+          "title2": "Para Gönderme ve Alma",
+          "description": "Beklemeden ve karmaşık işlemler olmadan saniyeler içinde para gönderip alın."
+        },
+        "1": {
+          "title1": "Her Yerden ",
+          "title2": "Para Yatırma ve Çekme",
+          "description": "Bakiyenizi kolayca temsilcilerimiz ya da banka hesabınız üzerinden yatırıp çekin."
+        },
+        "2": {
+          "title1": "Banka Hesapları ",
+          "title2": "ve Dijital Cüzdanlarla Entegrasyon",
+          "description": "Tüm paranızı tek bir yerden yönetmek için banka hesabınızı veya dijital cüzdanınızı bağlayın."
+        },
+        "3": {
+          "title1": "Yüksek ",
+          "title2": "Güvenlik ve Şifreleme",
+          "description": "Tüm işlemleriniz en son güvenlik teknolojileri ile şifrelenmiş ve korunmuştur."
+        },
+        "4": {
+          "title1": "Çoklu Cihaz ",
+          "title2": "ve Banka Desteği",
+          "description": "Uygulama, farklı cihazlar ve bankalarla uyumlu olarak her yerde sorunsuz bir deneyim sunar."
+        }
       }
     }
   }
-  }
-  
 }

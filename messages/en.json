@@ -29,19 +29,49 @@
       "secondBtn": "See how the app works"
     },
     "about": {
-    "titleH4": "Who Are We?",
-    "titleP": "A smart and reliable financial platform aiming to simplify money transfers and facilitate access to digital banking services. Our vision is to build a flexible, fast, and secure financial system for everyone – individuals and businesses.",
-    "cards": {
-      "0": {
-        "cardTitle": "Our Vision",
-        "cardP": "We believe that change starts with our everyday tools. Through our platform, we work to build a financial future that is easier, faster, and more secure for everyone."
-      },
-      "1": {
-        "cardTitle": "Our Mission",
-        "cardP": "To provide smart, simple, and secure payment solutions that meet the needs of individuals and businesses and help them grow financially with confidence."
+      "titleH4": "Who Are We?",
+      "titleP": "A smart and reliable financial platform aiming to simplify money transfers and facilitate access to digital banking services. Our vision is to build a flexible, fast, and secure financial system for everyone – individuals and businesses.",
+      "cards": {
+        "0": {
+          "cardTitle": "Our Vision",
+          "cardP": "We believe that change starts with our everyday tools. Through our platform, we work to build a financial future that is easier, faster, and more secure for everyone."
+        },
+        "1": {
+          "cardTitle": "Our Mission",
+          "cardP": "To provide smart, simple, and secure payment solutions that meet the needs of individuals and businesses and help them grow financially with confidence."
+        }
+      }
+    },
+    "features": {
+      "titleH4": "What Makes Us Unique?",
+      "titleP": "At PayRep, we’re not just offering you a financial app… we’re building a full experience that helps you manage your money with confidence and ease. Our uniqueness starts with the small details and extends to powerful solutions that truly serve you.",
+      "cards": {
+        "0": {
+          "title1": "Instant ",
+          "title2": "Money Transfers",
+          "description": "Send and receive money in seconds, no waiting or complications."
+        },
+        "1": {
+          "title1": "Deposit and Withdraw ",
+          "title2": "From Anywhere",
+          "description": "Easily deposit and withdraw your balance via agents or your bank account."
+        },
+        "2": {
+          "title1": "Link with Bank Accounts ",
+          "title2": "and Digital Wallets",
+          "description": "Connect your bank account or digital wallet to manage your money in one place."
+        },
+        "3": {
+          "title1": "High-Level ",
+          "title2": "Security and Encryption",
+          "description": "All your transactions are encrypted and protected with the latest security technologies."
+        },
+        "4": {
+          "title1": "Multi-Device ",
+          "title2": "and Bank Support",
+          "description": "Compatible with various devices and banks for a smooth experience wherever you are."
+        }
       }
     }
   }
-  }
-  
 }
