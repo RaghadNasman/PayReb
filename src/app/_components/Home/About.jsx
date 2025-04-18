@@ -10,7 +10,7 @@ export default function About() {
     const cards = Object.values(t.raw('cards'));
 
     return <>
-        <section id="about" className='relative'>
+        <section id="about" className='relative overflow-hidden'>
             <Image src={shadow} alt=' ' width={600} height={600} className='absolute top-0 right-[-20%] left-auto rtl:left-[-20%] rtl:right-auto hidden md:block ' />
             <div className="container mx-auto about-shadow">
                 <div className=" flex items-center justify-between gap-5  mb-5 flex-wrap md:flex-nowrap">

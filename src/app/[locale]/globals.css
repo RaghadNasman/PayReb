@@ -8,7 +8,7 @@
   --dark-blue: #170F49;
   --hover-dark-blue: #170f49be;
   --dark-black: #121212;
-  --medium-black:#2C2C2E;
+  --medium-black: #2C2C2E;
   --soft-black: #1C1C1E;
   --light-primary-color: #C8C8FF;
   --thin-gray: #E5E5EA;
@@ -44,6 +44,23 @@ body {
 
 /* start custom css */
 /* start global classes */
+
+@media (width >=64rem) {
+  .container {
+    width: 62rem ;
+  }
+}
+@media (width >=80rem) {
+  .container {
+    width: 77rem ;
+  }
+}
+@media (width >= 96rem) { 
+  .container {
+    width: 94rem ;
+  }
+ }
+
 section {
   padding-block: 3.5rem;
 }
@@ -72,12 +89,15 @@ section {
 .white-text {
   color: var(--white);
 }
+
 .primary-text {
   color: var(--primary-color);
 }
+
 .soft-black-text {
   color: var(--soft-black);
 }
+
 .medium-black-text {
   color: var(--medium-black);
 }
@@ -240,15 +260,16 @@ transform: rotate(-50deg);
 
 @media screen and (max-width: 576px) {
   .container {
-    padding-left:  1rem;
-    padding-right:  1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
+
 @media screen and (max-width: 767px) {
-.about-shadow {
-  overflow: visible;
-  background: url(../../assets/images/about-shadow.png)  no-repeat;
-  background-size: 100% 100%;
-  background-position: 50% ;
-}
+  .about-shadow {
+    overflow: visible;
+    background: url(../../assets/images/about-shadow.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: 50%;
+  }
 }

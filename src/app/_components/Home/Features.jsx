@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useRef, useState } from 'react';
 import features1 from '@/assets/images/features1.png'
 import features2 from '@/assets/images/features2.png'
 import features3 from '@/assets/images/features3.png'
@@ -7,6 +8,20 @@ import features5 from '@/assets/images/features5.png'
 import featuresIcon from '@/assets/images/featuresIcon.png'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import './styles.css';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 
 export default function Features() {
     const imgs = [features1, features2, features3, features4, features5];
@@ -23,22 +38,55 @@ export default function Features() {
                 </div>
 
                 <div className="flex flex-wrap justify-center items-stretch">
-                    {cards.map((card, index) => (
-                        <div key={index} className=' w-1/2 md:w-1/3 p-2'>
-                            <div className='bg-[#EDEDFF] p-4 rounded-xl text-center h-full transition-all duration-300 hover:translate-y-[-3px] hover:shadow'>
-                                <div className="mb-3 mx-auto flex items-center justify-center bg-white w-[70px] h-[70px] rounded-[50%]  ">
-                                    <Image src={imgs[index]} alt='' width={35} height={35} unoptimized priority />
+
+                    <Swiper
+                         grabCursor={true}
+                        loop={true}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                        }}
+                        breakpoints={{
+                            0: {
+                                slidesPerView: 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                            },
+                            1024: {
+                                slidesPerView: 4,
+                            },
+                        }}
+                        modules={[Autoplay]}
+                        className="featureSwiper mt-8"
+                    >
+                        {cards.map((card, index) => (
+                            <SwiperSlide key={index} className='flex justify-center'>
+                                <div className='w-[90%] sm:w-[95%] bg-[#EDEDFF] mx-auto p-4 rounded-xl text-center h-full transition-all duration-300  hover:shadow'>
+                                    <div className="mb-3 mx-auto flex items-center justify-center bg-white w-[70px] h-[70px] rounded-full">
+                                        <Image src={imgs[index]} alt='' width={35} height={35} unoptimized priority />
+                                    </div>
+                                    <h5 className='soft-black-text text-lg font-semibold'>{card.title1}</h5>
+                                    <h5 className='soft-black-text text-lg font-semibold mb-3'>{card.title2}</h5>
+                                    <p className='soft-black-text mb-4 flex-grow'>{card.description}</p>
                                 </div>
-                                <h5 className='soft-black-text text-lg font-semibold'>{card.title1}</h5>
-                                <h5 className='soft-black-text text-lg font-semibold mb-3'>{card.title2}</h5>
-                                <p className='soft-black-text mb-4 flex-grow'>{card.description}</p>
-                            </div>
-                        </div>
-                    )
-                    )}
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+
                 </div>
+
+       
             </div>
         </section>
 
     </>
 }
+
+
+
+
+
+
+
+

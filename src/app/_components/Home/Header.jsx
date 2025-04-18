@@ -18,7 +18,7 @@ export default function Header() {
     return <>
         <header className='h-auto md:min-h-[100vh] pt-[12vh] '>
            
-            <div className="flex justify-center items-center min-h-[50vh] md:h-[88vh] ">
+            <div className="flex justify-center items-center min-h-[50vh] md:h-[88vh] overflow-hidden">
                 <div className="container mx-auto flex items-center justify-between px-3 md:px-0">
                     <div className='relative '>
                         <Image className='absolute orbit-animate delay-0 top-[-100px] right-0 hidden md:block' src={animate1} alt=' ' />
@@ -54,7 +54,7 @@ export default function Header() {
                         </div>
                         {/* responsive moc up */}
 
-                        <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start animate__animated animate__fadeIn pb-8 md:pb-0">
+                        <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start animate__animated animate__fadeIn pb-8 ">
                             <Link href={'#download'} className='btn  flex items-center justify-center gap-2 black-btn cursor-pointer text-[15px] btn py-2 px-5 rounded-full'>
                                 {t('firstBtn')}
                                 <Image src={headerIcon} alt='' width={31} />
