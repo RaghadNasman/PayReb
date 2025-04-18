@@ -4,6 +4,7 @@ import {Link} from '@/i18n/navigation';
 import Header from '../_components/Home/Header';
 import About from '../_components/Home/About';
 import Features from '../_components/Home/Features';
+import Video from '../_components/Home/Video';
  
 export default function HomePage() {
   const t = useTranslations('HomePage');
@@ -12,6 +13,7 @@ export default function HomePage() {
    <Header />
    <About />
    <Features />
+   <Video />
  
   </>
 }
