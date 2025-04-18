@@ -72,6 +72,10 @@
           "description": "Compatible with various devices and banks for a smooth experience wherever you are."
         }
       }
+    },
+    "video": {
+      "titleH4": "See how PayRep simplifies your financial life.",
+      "titleP": "Learn how to use the app, and get ready to manage your money, send and receive, and make payments with ease and security. A quick video that introduces you to the features that make PayRep your best choice."
     }
   }
 }

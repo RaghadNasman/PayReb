@@ -72,6 +72,10 @@
           "description": "Uygulama, farklı cihazlar ve bankalarla uyumlu olarak her yerde sorunsuz bir deneyim sunar."
         }
       }
+    },
+    "video": {
+      "titleH4": "PayRep'in finansal hayatınızı nasıl kolaylaştırdığını görün.",
+      "titleP": "Uygulamayı nasıl kullanacağınızı öğrenin ve paranızı yönetmeye, gönderip almaya ve ödemelerinizi kolay ve güvenli bir şekilde yapmaya hazır olun. PayRep'i en iyi seçiminiz yapan özellikleri tanıtan kısa bir video."
     }
   }
 }
