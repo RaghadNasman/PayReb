@@ -19,10 +19,12 @@ export default function Video() {
     return <>
         <section id='video'>
             <div className="container mx-auto">
+                {/* start title */}
                 <div className="title animate__animated animate__fadeInUp">
                     <h4 className='font-bold text-2xl md:text-4xl'>{t('titleH4')}</h4>
                     <p className='text-lg md:text-xl'>{t('titleP')}</p>
                 </div>
+                {/* start video */}
                 <div className="relative rounded-2xl overflow-hidden">
                     <ReactPlayer
                         ref={playerRef}
@@ -33,7 +35,7 @@ export default function Video() {
                         controls={true}
                         className='rounded-2xl'
                     />
-
+                    {/* overlay on video on refresh */}
                     {overlayVisible && (
                         <div className="absolute inset-0 bg-black/50 flex items-center justify-center z-20">
                             <button

@@ -42,6 +42,26 @@
         }
       }
     },
+    "ready": {
+      "titleH4": "Büyümeye hazır mısın? PayReb yanında olsun",
+      "titleP": "Her şirketin kendi yolu vardır... ama başarı, seni anlayan bir sisteme ihtiyaç duyar. PayReb Business ile paran senin kadar akıllı çalışır. Küçük bir girişim mi? Büyük bir şirket mi? Karmaşık finans yönetimi mi? Sana uygun çözümler bizde.",
+      "desc": "Şirketlerle nasıl çalıştığımızı gör - ",
+      "link": "İş çözümleri alt sayfasına bağlantı",
+      "cards": {
+        "0": {
+          "title": "Yeni Girişimler",
+          "description": "Anında tahsilat çözümleri, karmaşa olmadan"
+        },
+        "1": {
+          "title": "Orta Ölçekli Şirketler",
+          "description": "Finans yönetiminde tam kontrol ve esneklik"
+        },
+        "2": {
+          "title": "Büyük Kuruluşlar",
+          "description": "Özel entegrasyonlar ve detaylı raporlama"
+        }
+      }
+    },
     "features": {
       "titleH4": "Bizi Özel Kılan Nedir?",
       "titleP": "PayRep’te size sadece bir finansal uygulama sunmuyoruz… paranızı güvenle ve kolayca yönetebileceğiniz bütüncül bir deneyim inşa ediyoruz. Farkımız küçük detaylarla başlar ve gerçekten size hizmet eden büyük çözümlere kadar uzanır.",
@@ -76,6 +96,97 @@
     "video": {
       "titleH4": "PayRep'in finansal hayatınızı nasıl kolaylaştırdığını görün.",
       "titleP": "Uygulamayı nasıl kullanacağınızı öğrenin ve paranızı yönetmeye, gönderip almaya ve ödemelerinizi kolay ve güvenli bir şekilde yapmaya hazır olun. PayRep'i en iyi seçiminiz yapan özellikleri tanıtan kısa bir video."
+    },
+    "privacy": {
+      "titleH4": "Your money is yours. Your data is your privacy.",
+      "titleP": "We protect your financial transactions with advanced encryption, and send you instant alerts for every payment or transfer. Track your money movements in real-time, and access clear reports on your account activity whenever you want.",
+      "titleSpan": "With PayReb, your peace of mind is our priority.",
+      "cards": {
+        "0": {
+          "text": "Strong and secure encryption"
+        },
+        "1": {
+          "text": "Instant alerts for your transactions"
+        },
+        "2": {
+          "text": "Transparent and clear reports"
+        },
+        "3": {
+          "text": "Smart protection algorithms"
+        }
+      }
+    },
+    "win": {
+      "titleH4": "Her Yerden Kazan!",
+      "titleP": "Arkadaşlarını PayReb uygulamasını kullanmaya davet et, onların ilk başarılı kullanımından sonra cüzdanına anında ödüller eklensin. Yönlendirme sistemi basit, otomatik ve uygulama içinden kolayca erişilebilir.",
+      "titleSpan": "Her başarılı davet, senin için yeni bir ödül demek.",
+      "btn": "Uygulamayı hemen indir!"
+    },
+    "partner": {
+      "titleH4": "Akıllı Finansal Çözümler Sunan Ortaklarımız",
+      "titleP": "Hizmetlerimizi tüm kullanıcılara en iyi şekilde ulaştırmamıza yardımcı olan güvenilir şirketler ve kuruluşlarla olan iş ortaklıklarımızla gurur duyuyoruz.",
+      "btn1": "Ticari Ortaklarımızı Tanıyın",
+      "btn2": "Teknoloji Ortaklarımızı Tanıyın"
+    },
+    "customers": {
+      "titleH4": "Kullanıcılarımız Ne Diyor?",
+      "titleP": "PayRep’i deneyimleyen kullanıcıların görüşlerini dinleyin.",
+      "cards": {
+        "0": {
+          "name": "Ahmet Ali",
+          "rate": "4.9",
+          "text": "İlk kez bir dijital cüzdanı bu kadar kolay kullandım! Uygulama sade ve çok güvenli, her gün rahatça kullanıyorum."
+        },
+        "1": {
+          "name": "Layan Yusuf",
+          "rate": "4.9",
+          "text": "Başta tereddüt ettim ama gerçekten PayRep beni şaşırttı! Tüm finansal hizmetlerim tek bir yerde, dolaşmaya gerek kalmadı."
+        },
+        "2": {
+          "name": "Sara Mahmut",
+          "rate": "4.5",
+          "text": "Para transferlerinin bu kadar kolay olacağını hiç düşünmezdim! PayRep gerçekten zaman ve emek tasarrufu sağladı, her şey saniyeler içinde gerçekleşiyor."
+        },
+        "3": {
+          "name": "Layan Yusuf",
+          "rate": "4.9",
+          "text": "Başta tereddüt ettim ama gerçekten PayRep beni şaşırttı! Tüm finansal hizmetlerim tek bir yerde, dolaşmaya gerek kalmadı."
+        }
+      }
+    },
+    "questions": {
+      "titleH4": "Sıkça Sorulan Sorular",
+      "titleP": "PayRep hakkında bilmen gereken her şey tek bir yerde. SSS bölümünü incele ve bizimle yolculuğuna başlamadan önce için rahat olsun.",
+      "card": {
+        "0": {
+          "ques": "PayRep uygulamasını kullanmaya nasıl başlayabilirim?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        },
+        "1": {
+          "ques": "PayRep ile para gönderme ve alma güvenli mi?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        },
+        "2": {
+          "ques": "Uygulama içi transferlerde ücret alınıyor mu?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        },
+        "3": {
+          "ques": "Aynı anda birden fazla banka hesabı bağlayabilir miyim?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        },
+        "4": {
+          "ques": "Hesap şifremi unuttum, ne yapmalıyım?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        },
+        "5": {
+          "ques": "PayRep’i online ödemeler için kullanabilir miyim?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        },
+        "6": {
+          "ques": "PayRep diğer para transfer uygulamalarından nasıl farklı?",
+          "ans": "PayRep’i Google Play veya App Store’dan indirerek kullanmaya başlayabilirsin. Telefon numaran veya e-posta adresinle kaydol, ardından birkaç basit adımda hesabını doğrula. Daha sonra bakiyeni yükleyebilir ya da banka kartını bağlayarak kolay ve güvenli transferler yapabilirsin."
+        }
+      }
     }
   }
 }

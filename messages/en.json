@@ -42,6 +42,26 @@
         }
       }
     },
+    "ready": {
+      "titleH4": "Ready to grow? Take PayReb with you",
+      "titleP": "Every business has its own way... but success needs a system that understands you. With PayReb Business, your money works as smart as you. Small startup? Big company? Complex financial management? We’ve got solutions that fit you.",
+      "desc": "See how we work with businesses - ",
+      "link": "Link to the business solutions subpage",
+      "cards": {
+        "0": {
+          "title": "Startups",
+          "description": "Instant payment solutions, without the hassle"
+        },
+        "1": {
+          "title": "Medium Businesses",
+          "description": "Full control and flexibility in managing finances"
+        },
+        "2": {
+          "title": "Large Enterprises",
+          "description": "Custom integrations and detailed reporting"
+        }
+      }
+    },
     "features": {
       "titleH4": "What Makes Us Unique?",
       "titleP": "At PayRep, we’re not just offering you a financial app… we’re building a full experience that helps you manage your money with confidence and ease. Our uniqueness starts with the small details and extends to powerful solutions that truly serve you.",
@@ -76,6 +96,97 @@
     "video": {
       "titleH4": "See how PayRep simplifies your financial life.",
       "titleP": "Learn how to use the app, and get ready to manage your money, send and receive, and make payments with ease and security. A quick video that introduces you to the features that make PayRep your best choice."
+    },
+    "privacy": {
+      "titleH4": "Your money is yours. Your data is your privacy.",
+      "titleP": "We protect your financial transactions with advanced encryption, and send you instant alerts for every payment or transfer. Track your money movements in real-time, and access clear reports on your account activity whenever you want.",
+      "titleSpan": "With PayReb, your peace of mind is our priority.",
+      "cards": {
+        "0": {
+          "text": "Strong and secure encryption"
+        },
+        "1": {
+          "text": "Instant alerts for your transactions"
+        },
+        "2": {
+          "text": "Transparent and clear reports"
+        },
+        "3": {
+          "text": "Smart protection algorithms"
+        }
+      }
+    },
+    "win": {
+      "titleH4": "Win from every side!",
+      "titleP": "Invite your friends to use the PayReb app and receive instant rewards added to your wallet after their first successful use. The referral system is simple, automated, and available directly from within the app.",
+      "titleSpan": "Every successful referral means a new reward for you.",
+      "btn": "Download the app now!"
+    },
+    "partner": {
+      "titleH4": "Our Partners in Delivering Smart Financial Solutions",
+      "titleP": "We take pride in our partnerships with a group of trusted companies and organizations that help us deliver our services in the best way to all users.",
+      "btn1": "Meet Our Business Partners",
+      "btn2": "Meet Our Technology Partners"
+    },
+    "customers": {
+      "titleH4": "What Do Our Users Say?",
+      "titleP": "Hear what PayRep users have to say after trying it out.",
+      "cards": {
+        "0": {
+          "name": "Ahmad Ali",
+          "rate": "4.9",
+          "text": "First time using a digital wallet this easily! The app is simple and very secure, and I feel comfortable using it daily."
+        },
+        "1": {
+          "name": "Layan Youssef",
+          "rate": "4.9",
+          "text": "I was hesitant at first, but honestly, PayRep surprised me! All my financial services are now in one place, without the hassle."
+        },
+        "2": {
+          "name": "Sarah Mahmoud",
+          "rate": "4.5",
+          "text": "I never imagined money transfers could be this easy! PayRep truly saved me time and effort—everything happens in seconds."
+        },
+        "3": {
+          "name": "Layan Youssef",
+          "rate": "4.9",
+          "text": "I was hesitant at first, but honestly, PayRep surprised me! All my financial services are now in one place, without the hassle."
+        }
+      }
+    },
+    "questions": {
+      "titleH4": "Frequently Asked Questions",
+      "titleP": "Everything you need to know about PayRep in one place. Browse the FAQs and feel confident before starting your journey with us.",
+      "card": {
+        "0": {
+          "ques": "How can I start using the PayRep app?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        },
+        "1": {
+          "ques": "Is PayRep safe for sending and receiving money?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        },
+        "2": {
+          "ques": "Are there any fees for transfers within the app?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        },
+        "3": {
+          "ques": "Can I link more than one bank account at the same time?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        },
+        "4": {
+          "ques": "What should I do if I forget my account password?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        },
+        "5": {
+          "ques": "Can I use PayRep for online payments?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        },
+        "6": {
+          "ques": "What makes PayRep different from other money transfer apps?",
+          "ans": "You can start using PayRep by downloading the app from Google Play or the App Store. Register your account using your phone number or email, and verify your account in a few simple steps. Then you can top up your balance or link your bank card and start making secure and easy transfers."
+        }
+      }
     }
   }
 }

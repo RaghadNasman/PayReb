@@ -30,6 +30,8 @@ export default function Features() {
     return <>
         <section id="features">
             <div className="container mx-auto">
+                {/* start title */}
+
                 <div className="title ">
                     <h4 className='font-bold text-2xl md:text-4xl flex items-center gap-4'>{t('titleH4')}
                         <Image src={featuresIcon} width={40} height={40} priority unoptimized alt='Our Features' />
@@ -37,7 +39,9 @@ export default function Features() {
                     <p className='text-lg md:text-xl'>{t('titleP')}</p>
                 </div>
 
-                <div className="flex flex-wrap justify-center items-stretch">
+                {/* start map on cards => swiper */}
+
+                <div className="flex justify-center items-stretch">
 
                     <Swiper
                          grabCursor={true}
@@ -46,9 +50,12 @@ export default function Features() {
                             delay: 2000,
                             disableOnInteraction: false,
                         }}
+                        pagination={{
+                            clickable: true,
+                          }}
                         breakpoints={{
                             0: {
-                                slidesPerView: 2,
+                                slidesPerView: 1.5,
                             },
                             768: {
                                 slidesPerView: 3,
@@ -57,7 +64,7 @@ export default function Features() {
                                 slidesPerView: 4,
                             },
                         }}
-                        modules={[Autoplay]}
+                        modules={[Autoplay, Pagination]}
                         className="featureSwiper mt-8"
                     >
                         {cards.map((card, index) => (
